@@ -1,0 +1,24 @@
+version: '3.2'
+services:
+ service1:
+  image: httpd:latest
+  ports:
+   - "8080:80"
+  volumes:
+   - tp1_vol:/usr/local/apache2
+  networks:
+   - tp1_net
+ service2:
+  image: httpd:latest
+  expose:
+   - "9999"
+  ports:
+   - "8888:80"
+  volumes:
+   - tp1_vol:/usr/local/apache2
+  networks:
+   - tp1_net
+volumes:
+ tp1_vol:
+networks:
+ tp1_net:
