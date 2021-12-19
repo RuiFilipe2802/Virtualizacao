@@ -1,6 +1,6 @@
 # Virtualizacao de Redes 2021/2022
-Unidade Curricular de 1ºano de Mestrado em Engenharia de Telecomunicações e Informática
+1º semestre / 1ºano
 
-1º semestre
+Mestrado em Engenharia de Telecomunicações e Informática 
 
 UMinho
